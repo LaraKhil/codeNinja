@@ -1,0 +1,20 @@
+.program {
+  &__text {
+    &.is-hidden {
+      display: none;
+    }
+  }
+  &__shedule-list {
+  }
+  &__schedule-item {
+    &::before {
+      content: '>';
+      margin-right: 7px;
+    }
+  }
+
+  &__button {
+    background-color: transparent;
+    color: var(--button-color);
+  }
+}

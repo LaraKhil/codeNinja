@@ -1,0 +1,39 @@
+.registration{
+  border: 1px solid red;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 35px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+
+  &__title{
+    margin-bottom: 35px;
+  }
+
+  &__text{
+    width: 114px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  &__text--margin{
+  margin-bottom: 20px;
+  }
+
+  &__text-form{
+    text-align: center;
+  }
+
+  &__form{
+    border-top: 1px solid var(--placeholder);
+  }
+
+}
+
+
+

@@ -1,6 +1,7 @@
-.button{
-  width: 145px;
+.button {
+  min-width: 145px;
   height: 40px;
+  padding: 0px 6px;
   background: var(--button-color);
   border-radius: 25px;
   border: none;

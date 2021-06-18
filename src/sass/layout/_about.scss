@@ -1,0 +1,53 @@
+.about-us {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us__img {
+  width: 100%;
+  max-width: 290px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us__tit {
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.about-us__txt {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color);
+  max-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.read-more__link {
+  font-family: 'Caveat Brush', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 65px;
+  color: var(--button-color);
+}
+
+.about-us__button {
+  color: var(--button-color);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  height: 65px;
+  margin-left: 0px;
+  font-family: 'Caveat Brush', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 65px;
+}

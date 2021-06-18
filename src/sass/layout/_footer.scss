@@ -1,10 +1,7 @@
 .footer {
+  padding-bottom: 19px;
   &__list {
     margin-bottom: 34px;
-  }
-
-  &__address {
-    margin-bottom: 19px;
   }
 }
 
@@ -12,9 +9,6 @@
   &__list {
     display: flex;
     justify-content: space-between;
-  }
-
-  &__item {
   }
 
   &__link {

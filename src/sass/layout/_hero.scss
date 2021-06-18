@@ -1,0 +1,24 @@
+.hero{
+  text-align: center;
+  &__description{
+    width: 224px;
+    margin: 0 auto;
+  }
+
+  &__title{
+    font-family: "Caveat Brush", cursive;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--text-color)
+  }
+
+  &__text{
+    margin-bottom: 37px;
+  }
+
+  &__btn{
+    margin-bottom: 47px;
+  }
+
+}

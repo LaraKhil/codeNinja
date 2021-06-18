@@ -1,18 +1,22 @@
-.social__list{
+.social{
   display: flex;
+  justify-content: center;
 
   &__link{
-    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: relative;
   }
+
 
   &__icon{
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    fill: var(--text-color);
   }
-}
-
-svg{
-  display: inline-block;
-  width: 15px;
-  height: 15px;
 }

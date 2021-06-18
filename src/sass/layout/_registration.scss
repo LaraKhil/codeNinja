@@ -44,6 +44,7 @@
     border-bottom: 1px solid var(--button-color);
     width: 100%;
     margin-bottom: 25px;
+    color: var(--text-color);
 
   }
 
@@ -62,6 +63,7 @@
   }
 
   &__btn{
+    display: block;
     margin: 0 auto;
   }
 

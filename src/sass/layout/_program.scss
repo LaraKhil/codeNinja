@@ -1,0 +1,42 @@
+.program {
+  &__text {
+    &.is-hidden {
+      display: none;
+    }
+  }
+  &__shedule-list {
+  }
+  &__schedule-item {
+    &::before {
+      content: '>';
+      margin-right: 7px;
+    }
+  }
+
+  &__button {
+    background-color: transparent;
+    color: var(--button-color);
+  }
+
+  &__info-icon {
+    fill: var(--text-color);
+  }
+
+  &__info-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__info-item {
+    position: relative;
+    height: 142px;
+    width: 142px;
+    border-radius: 50%;
+    background-color: var(--secondary-background-color);
+  }
+  &__info-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

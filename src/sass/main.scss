@@ -5,6 +5,7 @@
 @import './base/common';
 @import './base/container';
 // components
+@import './components/site-nav';
 @import './components/burger-menu';
 @import './components/button';
 @import './components/logo';
@@ -20,6 +21,7 @@
 @import './layout/program';
 @import './layout/review';
 @import './layout/registration';
+@import './layout/contacts';
 @import './layout/footer';
 //utils
 @import './utils/is-hidden';

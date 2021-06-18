@@ -1,0 +1,29 @@
+.site-nav {
+  &__list {
+  }
+  &__item {
+  }
+  &__link {
+    color: var(--text-color);
+    transition: color 250ms linear;
+    &:hover,
+    :focus {
+      color: var(--button-color);
+    }
+  }
+
+  &_burger {
+    text-align: center;
+  }
+  &__list_burger {
+  }
+  &__item_burger {
+    &:not(:last-child) {
+      margin-bottom: 45px;
+    }
+  }
+  &__link_burger {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}

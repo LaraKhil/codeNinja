@@ -1,0 +1,35 @@
+.burger-menu {
+  padding: 25px;
+  position: fixed;
+  background-color: rgba(254, 243, 228, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: transform 250ms linear;
+
+  z-index: 999;
+  &__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__close-icon {
+    fill: var(--text-color);
+    &:hover,
+    &:focus {
+      fill: var(--button-color);
+    }
+  }
+
+  &.is-open {
+    transform: translateY(0%);
+  }
+}

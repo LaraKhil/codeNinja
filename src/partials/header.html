@@ -1,0 +1,71 @@
+<header class="header">
+  <div class="container header__container">
+    <picture>
+      <source
+        srcset="./images/logo/webp/desk-logo.webp 1x, ./images/logo/webp/desk-logo2x.webp 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/logo/png/desk-logo.png 1x, ./images/logo/png/desk-logo2x.png 2x"
+        media="(min-width: 1280px)"
+      />
+
+      <source
+        srcset="./images/logo/webp/mobile-logo.webp 1x, ./images/logo/webp/mobile-logo2x.webp 2x"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="./images/logo/png/mobile-logo.png 1x, ./images/logo/png/desk-logo2x.png 2x"
+        media="(max-width: 767px)"
+      />
+
+      <img class="logo__image" src="./images/logo/png/mobile-logo.png" alt="" />
+    </picture>
+    <button class="header__menu-open">
+      <svg class="header__menu-open-icon" width="30px" height="16px">
+        <use href="./images/icons.svg#menu"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="burger-menu">
+    <button class="burger-menu__close">
+      <svg class="burger-menu__close-icon" width="18px" height="18px">
+        <use href="./images/icons.svg#menu-close"></use>
+      </svg>
+    </button>
+    <picture>
+      <source
+        srcset="
+          ./images/logo/webp/mobile-logo-burger.webp   1x,
+          ./images/logo/webp/mobile-logo-burger2x.webp 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
+          ./images/logo/png/mobile-logo-burger.png   1x,
+          ./images/logo/png/mobile-logo-burger2x.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+
+      <img class="logo__image_burger" src="./images/logo/png/mobile-logo-burger.png" alt="" />
+    </picture>
+    <nav class="site-nav site-nav_burger">
+      <ul class="site-nav__list site-nav__list_burger">
+        <li class="site-nav__item site-nav__item_burger">
+          <a class="site-nav__link site-nav__link_burger" href="">About us</a>
+        </li>
+        <li class="site-nav__item site-nav__item_burger">
+          <a class="site-nav__link site-nav__link_burger" href="">Program</a>
+        </li>
+        <li class="site-nav__item site-nav__item_burger">
+          <a class="site-nav__link site-nav__link_burger" href="">Reviews</a>
+        </li>
+        <li class="site-nav__item site-nav__item_burger">
+          <a class="site-nav__link site-nav__link_burger" href="">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

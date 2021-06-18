@@ -1,0 +1,29 @@
+.header {
+  &__container {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-bottom: 25px;
+    max-width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  &__menu-open {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__menu-open-icon {
+    transition: fill 250ms linear;
+    &:hover,
+    &:focus {
+      fill: var(--button-color);
+    }
+  }
+}

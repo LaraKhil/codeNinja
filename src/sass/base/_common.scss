@@ -16,18 +16,24 @@ p {
 }
 
 a,
-input,
-button {
+input{
   outline: none;
   display: inline-block;
 }
+
+button{
+  display: block;
+  outline: none;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 

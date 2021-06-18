@@ -1,36 +1,66 @@
 .program {
+  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 10px;
+  }
   &__text {
-    // &.is-hidden {
-    //   display: none;
-    // }
+
+    margin-bottom: 10px;
+    &.is-hidden {
+      display: none;
+    }
   }
 
   &__schedule-item {
+    font-size: 16px;
+    line-height: 1.2;
     &::before {
       content: '>';
       margin-right: 7px;
     }
+    &:not(:last-child) {
+      padding-bottom: 10px;
+    }
   }
 
   &__button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Caveat Brush', sans-serif;
+    font-size: 18px;
     background-color: transparent;
+    border: none;
     color: var(--button-color);
   }
 
   &__info-icon {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     fill: var(--text-color);
   }
 
   &__info-list {
+    padding-top: 35px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
   }
   &__info-item {
+    text-align: center;
     position: relative;
+    margin-bottom: 25px;
     height: 142px;
     width: 142px;
     border-radius: 50%;
     background-color: var(--secondary-background-color);
+    box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+    &:nth-child(odd) {
+      margin-bottom: 60px;
+    }
   }
   &__info-image {
     position: absolute;
@@ -38,4 +68,35 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  &__info-title {
+    margin-top: 50px;
+    margin-bottom: 12px;
+
+    font-family: 'Caveat Brush', suns-serif;
+    font-size: 18px;
+  }
+  &__info-text {
+    margin-bottom: 12px;
+
+    font-size: 14px;
+  }
 }
+
+// .advantages-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   align-items: flex-end;
+//   width: 370px;
+//   margin: 0 auto;
+// }
+
+// .advantages-list-item {
+//   width: 170px;
+//   padding: 20px;
+//   background-color: #f7f7f7;
+// }
+
+// .advantages-list-item:nth-child(odd) {
+//   margin-bottom: 30px;
+// }

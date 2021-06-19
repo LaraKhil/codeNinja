@@ -1,5 +1,8 @@
 .logo {
   &__image {
+    @media screen and(min-width: 1280px) {
+      margin-right: 38px;
+    }
   }
   &__image_burger {
     margin-right: auto;

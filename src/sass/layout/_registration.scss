@@ -70,10 +70,16 @@
     font-size: 18px;
     line-height: 1.2;
     text-align: center;
+
+    @media screen and (min-width: 768px){
+      text-align: right;
+    }
+    
   }
 
   &__text:first-child{
     margin-bottom: 24px;
+    
 
     @media screen and (min-width: 768px){
       

@@ -11,9 +11,15 @@
     @media screen and(min-width: 768px) {
       width: 310px;
     }
+    @media screen and(min-width: 1280px) {
+      width: 392px;
+    }
   }
   &__title {
     margin-bottom: 10px;
+    @media screen and(min-width: 1280px) {
+      margin-bottom: 21px;
+    }
   }
   &__text {
     margin-bottom: 10px;
@@ -22,6 +28,17 @@
     }
     &-target {
       margin-top: 10px;
+      margin-bottom: 0px;
+      @media screen and(min-width: 1280px) {
+        margin-top: 21px;
+      }
+    }
+    @media screen and(min-width: 1280px) {
+      // margin-bottom: 21px;
+      &.is-hidden {
+        display: block;
+        padding-right: 25px;
+      }
     }
   }
   &__schedule-list {
@@ -35,6 +52,11 @@
     &:not(:last-child) {
       margin-bottom: 10px;
     }
+    @media screen and(min-width: 1280px) {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
   }
 
   &__button {
@@ -47,6 +69,9 @@
     background-color: transparent;
     border: none;
     color: var(--button-color);
+    @media screen and(min-width: 1280px) {
+      display: none;
+    }
   }
 
   &__info-icon {
@@ -73,6 +98,9 @@
       max-width: 420px;
       justify-content: space-around;
     }
+    @media screen and(min-width: 1280px) {
+      max-width: 392px;
+    }
   }
   &__info-item {
     text-align: center;
@@ -91,6 +119,10 @@
       margin-left: auto;
       margin-bottom: 60px;
     }
+    @media screen and(min-width: 1280px) {
+      width: 180px;
+      height: 180px;
+    }
   }
   &__info-image {
     position: absolute;
@@ -104,10 +136,19 @@
 
     font-family: 'Caveat Brush', suns-serif;
     font-size: 18px;
+    @media screen and(min-width: 1280px) {
+      margin-top: 65px;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
   }
   &__info-text {
     margin-bottom: 12px;
-
     font-size: 14px;
+
+    @media screen and(min-width: 1280px) {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
   }
 }

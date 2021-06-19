@@ -22,6 +22,9 @@
       max-width: 635px;
     }
   }
+  @media screen and(min-width: 1200px) {
+    display: none;
+  }
   &__close {
     position: absolute;
     right: 0px;

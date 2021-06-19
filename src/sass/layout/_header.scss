@@ -3,7 +3,6 @@
     padding-top: 7px;
     padding-bottom: 7px;
     padding-bottom: 25px;
-    // max-width: 480px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -12,7 +11,9 @@
     @media screen and (min-width: 768px) {
       justify-content: left;
       padding-top: 27px;
-      // max-width: 768px;
+    }
+    @media screen and(min-width: 1280px) {
+      padding-top: 30px;
     }
   }
   &__menu-open {
@@ -25,7 +26,6 @@
 
     @media screen and(min-width: 768px) {
       top: 26px;
-      // right: 67px;
     }
   }
 
@@ -34,6 +34,9 @@
     &:hover,
     &:focus {
       fill: var(--button-color);
+    }
+    @media screen and(min-width: 1280px) {
+      display: none;
     }
   }
 }

@@ -7,7 +7,7 @@
   padding-bottom: 46px;
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
-  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+  box-shadow: var(--registration-box-shadow);
 
   @media screen and (min-width: 400px){
     border-radius: 25px;
@@ -35,7 +35,7 @@
       width: 634px;
       margin: 0 auto;
       border-radius: 150px;
-      box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+      box-shadow: var(--registration-box-shadow);
     }
     
   }
@@ -89,7 +89,7 @@
   }
 
   &__form-container{
-    border-top: 1px solid var(--placeholder);
+    border-top: var(--registr-border) var(--placeholder);
     padding-top: 11px;
     
     @media screen and (min-width: 768px){
@@ -97,7 +97,7 @@
       border-top: none;
       padding-top: 19px;
       padding-bottom: 19px;
-      border-left: 1px solid var(--button-color);
+      border-left: var(--registr-border) var(--button-color);
     }
   }
 
@@ -110,14 +110,13 @@
       padding-right: 25px;
       width: 289px;
     }
-    
-    
+  
   }
 
   &__input{
     border: none;
     background-color: transparent;
-    border-bottom: 1px solid var(--button-color);
+    border-bottom: var(--registr-border) var(--button-color);
     width: 100%;
     color: var(--text-color);
 

@@ -3,12 +3,17 @@
     padding-top: 7px;
     padding-bottom: 7px;
     padding-bottom: 25px;
-    max-width: 290px;
+    // max-width: 480px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     display: flex;
     justify-content: center;
+    @media screen and (min-width: 768px) {
+      justify-content: left;
+      padding-top: 27px;
+      // max-width: 768px;
+    }
   }
   &__menu-open {
     position: absolute;
@@ -17,6 +22,11 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+
+    @media screen and(min-width: 768px) {
+      top: 26px;
+      // right: 67px;
+    }
   }
 
   &__menu-open-icon {

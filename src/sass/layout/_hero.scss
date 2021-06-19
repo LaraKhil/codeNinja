@@ -1,8 +1,21 @@
 .hero{
   text-align: center;
+
+  @media screen and (min-width: 768px){
+    text-align: left;
+  }
+
   &__description{
     width: 224px;
     margin: 0 auto;
+
+    @media screen and (min-width: 768px){
+      margin: 0 0 auto 0;
+    }
+
+    @media screen and (min-width: 1280px){
+      width: 490px;
+    }
   }
 
   &__title{
@@ -10,15 +23,68 @@
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
-    color: var(--text-color)
+    color: var(--text-color);
+
+    @media screen and (min-width: 768px){
+      text-align: left;
+    }
+
+    @media screen and (min-width: 1280px){
+      margin-bottom: 15px;
+      font-size: 64px;
+      line-height: 1;
+    }
   }
 
   &__text{
     margin-bottom: 37px;
+
+    @media screen and (min-width: 768px){
+      margin-bottom: 26px;
+    }
+
+    @media screen and (min-width: 1280px){
+      margin-bottom: 30px;
+      font-size: 24px;
+      line-height: 1.2;
+    }
   }
 
   &__btn{
-    margin-bottom: 47px;
+    margin-bottom: 32.5px;
+
+    @media screen and (min-width: 768px){
+      margin: 0 0 auto 0;
+      margin-bottom: 13.5px;
+    }
+
+    @media screen and (min-width: 1280px){
+      margin-bottom: 54.5px;
+    }
   }
 
+}
+
+.hero__list{
+
+  @media screen and (min-width: 768px){
+    justify-content: flex-start;
+  }
+
+}
+
+.hero__list .social__icon{
+
+  @media screen and (min-width: 768px){
+    left:0;
+    transform: translateY(0);
+    width: 19px;
+    height: 15px;
+
+  }
+
+  @media screen and (min-width: 1280px){
+    width: 24px;
+    height: 24px;
+  }
 }

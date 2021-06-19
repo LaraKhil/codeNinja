@@ -1,7 +1,18 @@
 .site-nav {
+  @media screen and(max-width: 1279px) {
+    display: none;
+  }
+  @media screen and(min-width: 1280px) {
+    display: flex;
+    align-items: center;
+  }
   &__list {
+    display: flex;
   }
   &__item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
   &__link {
     color: var(--text-color);
@@ -10,15 +21,23 @@
     :focus {
       color: var(--button-color);
     }
+    @media screen and(min-width: 1280px) {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
 
   &_burger {
     text-align: center;
+    display: block;
   }
   &__list_burger {
+    display: block;
   }
   &__item_burger {
     &:not(:last-child) {
+      margin-right: 0;
       margin-bottom: 45px;
     }
   }

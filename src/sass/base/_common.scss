@@ -4,12 +4,37 @@ body {
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
-  background-image: url(/images/background.svg), url(/images/background.svg);
+  background-image: url(/images/background/bg-mobile-top.svg);
   
-  background-position: top left, bottom ;
+  background-position: top ;
+  background-size: contain ;
+  
   
   background-repeat: no-repeat, no-repeat;
+
+  @media screen and (min-width: 768px){
+    background-image: url(/images/background/bgtop.svg), url(/images/background/bg-tablet-bottom.svg);
+    background-position: top , bottom ;
+    background-size: contain  , contain;
+  }
+
+  @media screen and (min-width: 1280px){
+    background-image: url(/images/background/bgtop.svg), url(/images/background/background.svg);
+    background-position: top , bottom ;
+    background-size: contain, contain ;
+
+  }
   
+}
+
+.bg-wrapper{
+  background-image: url(/images/background/bg-mobile-bottom.svg);
+  background-position: bottom ;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px){
+    background-image: unset;
+  }
 }
 
 h1,
@@ -46,3 +71,4 @@ ul {
   padding: 0;
   list-style: none;
 }
+

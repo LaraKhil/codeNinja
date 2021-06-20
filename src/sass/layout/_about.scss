@@ -55,6 +55,9 @@
     padding-top: 35px;
     text-align: left;
   }
+  @media screen and (min-width: 1200px) {
+    padding-top: 88px;
+  }
 }
 
 .about-us__txt {
@@ -72,15 +75,10 @@
   margin-bottom: 15px;
 }
 
-.about-us__txt-marg-desk {
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 15px;
-  }
-}
-
 .about-us__txt-target {
-  @media screen and (max-width: 1199px) {
-    display: none;
+  margin-top: 15px;
+  @media screen and (min-width: 1200px) {
+    display: block;
   }
 }
 

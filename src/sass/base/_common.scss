@@ -4,7 +4,11 @@ body {
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
-  background-image: url(/images/background.svg);
+  background-image: url(/images/background.svg), url(/images/background.svg);
+  
+  background-position: top left, bottom ;
+  
+  background-repeat: no-repeat, no-repeat;
   
 }
 

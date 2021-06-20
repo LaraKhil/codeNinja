@@ -4,6 +4,7 @@
   margin-right: auto;
   padding-top: 23px;
   margin-bottom: 30px;
+  
 }
 
 .review__tit {
@@ -47,11 +48,18 @@
 }
 
 .review__txt{
+  min-width: 290px;
+  max-width: 400px;
+  margin: 0 auto;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.2;
   color: var(--text-color);
   text-align: center;
   margin-bottom: 30px;
+}
+
+.review__txt-padding {
+  padding: 0 5px;
 }
 
 .review__couter-wrapper {
@@ -87,4 +95,9 @@
     top: 50%;
     right: 0;
   }
+}
+
+
+.article-hidden{
+  display: none;
 }

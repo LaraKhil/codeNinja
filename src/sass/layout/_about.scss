@@ -1,47 +1,87 @@
 .about-us {
-  max-width: 480px;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 12px;
+    padding-right: 67px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    padding-left: 71px;
+    padding-right: 229px;
+    margin: 0 auto;
+  }
 }
 
-.about-us__container {
-  max-width: 290px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.about-us__all-txt-wrapper {
+  width: 290px;
+  @media screen and (min-width: 768px) {
+    width: 336px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 392px;
+  }
 }
 
 .about-us__img {
+  padding-top: 10px;
   width: 100%;
-  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+    width: 330px;
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 512px;
+    margin-right: 76px;
+  }
 }
 
 .about-us__tit {
   color: var(--text-color);
   margin-bottom: 15px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 35px;
+    text-align: left;
+  }
 }
 
 .about-us__txt {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 .about-us__txt-marg {
   margin-bottom: 15px;
 }
 
-.read-more__link {
-  font-family: 'Caveat Brush', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 65px;
-  color: var(--button-color);
+.about-us__txt-marg-desk {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 15px;
+  }
+}
+
+.about-us__txt-target {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .about-us__button {
@@ -49,10 +89,12 @@
   border: none;
   background-color: rgba(255, 255, 255, 0);
   margin-left: 0px;
-  font-family: 'Caveat Brush', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Caveat Brush', cursive;
   font-size: 18px;
   padding: 0;
   margin-top: 15px;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }

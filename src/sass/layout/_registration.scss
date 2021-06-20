@@ -8,6 +8,7 @@
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
   box-shadow: var(--registration-box-shadow);
+  background-color: var(--background-color);
 
   @media screen and (min-width: 330px) and (max-width: 767px){
     border-radius: 25px;
@@ -24,6 +25,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     box-shadow: none;
+    background-color: transparent;
   }
 
   &__flex-wrapper{
@@ -39,6 +41,7 @@
       margin: 0 auto;
       border-radius: 150px;
       box-shadow: var(--registration-box-shadow);
+      background-color: var(--background-color);
     }
 
     @media screen and (min-width: 1280px){

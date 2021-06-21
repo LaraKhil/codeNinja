@@ -16,6 +16,7 @@
     }
   }
   &__title {
+    text-align: left;
     margin-bottom: 10px;
     @media screen and(min-width: 1280px) {
       margin-bottom: 21px;
@@ -92,6 +93,8 @@
       justify-content: space-around;
     }
     @media screen and(min-width: 1280px) {
+      margin-left: 40px;
+      justify-content: space-between;
       max-width: 392px;
     }
   }

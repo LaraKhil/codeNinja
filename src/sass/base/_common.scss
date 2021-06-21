@@ -7,36 +7,44 @@ body {
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
-  background-image: url(/images/background/donuts-mob.png), url(/images/background/wheat.png) ,url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg) ;
-  background-position:  top 0 left 0 , bottom 0 right 0, top , bottom 228px left 0;
-  background-size: 119px , 113px ,contain, contain;
+  background-image: url(/images/background/donuts-mob.png), url(/images/background/wheat.png),
+    url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg);
+  background-position: top 0 left 0, bottom 0 right 0, top, bottom 228px left 50%;
+  background-size: 119px, 113px, 550px 461px, 551px 1215px;
   background-repeat: no-repeat;
 
-  @media (min-resolution: 2dppx){
-    background-image: url(/images/background/donuts-mob2x.png), url(/images/background/wheat2x.png) ,url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg) ;
+  @media (min-resolution: 2dppx) {
+    background-image: url(/images/background/donuts-mob2x.png), url(/images/background/wheat2x.png),
+      url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg);
   }
 
-  @media screen and (min-width: 768px){
-    background-image: url(/images/background/donuts-tablet.png), url(/images/background/wheat-tablet.png) ,url(/images/background/bg-tablet-top.svg) , url(/images/background/bg-tablet-bottom.svg) ;
-    background-position: top 0 right 137px, bottom 0 right 0 , top ,  bottom 63px left 0;
-    background-size: 378px, 113px ,100% , contain;
+  @media screen and (min-width: 768px) {
+    background-image: url(/images/background/donuts-tablet.png),
+      url(/images/background/wheat-tablet.png), url(/images/background/bg-tablet-top.svg),
+      url(/images/background/bg-tablet-bottom.svg);
+    background-position: top 0 right 137px, bottom 0 right 0, top, bottom 63px left 50%;
+    background-size: 378px, 113px, 880px 622px, 891px 1260px;
 
-    @media (min-resolution: 2dppx){
-    background-image: url(/images/background/donuts-tablet@2x.png), url(/images/background/wheat-tablet@2x.png) ,url(/images/background/bg-tablet-top.svg) , url(/images/background/bg-tablet-bottom.svg) ;
+    @media (min-resolution: 2dppx) {
+      background-image: url(/images/background/donuts-tablet@2x.png),
+        url(/images/background/wheat-tablet@2x.png), url(/images/background/bg-tablet-top.svg),
+        url(/images/background/bg-tablet-bottom.svg);
+    }
   }
 
-  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(/images/background/spoon.png), url(/images/background/donuts-desk.png),
+      url(/images/background/wheat-desk.png), url(/images/background/bg-desk-top.svg),
+      url(/images/background/bg-desk-bottom.svg);
+    background-position: top 137px left 0, top 0 right 0, bottom 0 right 0, top, bottom left 50%;
+    background-size: 150px, 720px, 362px, 1431px 1035px, 1323px 1497px;
 
-  @media screen and (min-width: 1280px){
-     background-image: url(/images/background/spoon.png) , url(/images/background/donuts-desk.png), url(/images/background/wheat-desk.png) ,url(/images/background/bg-desk-top.svg) ,url(/images/background/bg-desk-bottom.svg) ;
-    background-position: top 137px left 0 , top 0 right 0, bottom 0 right 0 , top ,  bottom  left 0;
-    background-size: 150px ,720px, 362px , contain, contain;
-
-    @media (min-resolution: 2dppx){
-    background-image: url(/images/background/spoon2x.png), url(/images/background/donuts-desk2x.png), url(/images/background/wheat-desk2x.png) ,url(/images/background/bg-desk-top.svg) , url(/images/background/bg-desk-bottom.svg) ;
+    @media (min-resolution: 2dppx) {
+      background-image: url(/images/background/spoon2x.png),
+        url(/images/background/donuts-desk2x.png), url(/images/background/wheat-desk2x.png),
+        url(/images/background/bg-desk-top.svg), url(/images/background/bg-desk-bottom.svg);
+    }
   }
-  }
-  
 }
 
 h1,
@@ -73,4 +81,3 @@ ul {
   padding: 0;
   list-style: none;
 }
-

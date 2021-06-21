@@ -10,17 +10,14 @@
   box-shadow: var(--registration-box-shadow);
   background-color: var(--background-color);
 
-  @media screen and (min-width: 330px) and (max-width: 767px){
-    border-radius: 25px;
-    // max-width: 390px;
+  @media screen and (min-width: 480px){
+    max-width: 450px;
+    margin: 0 auto;
   }
 
- 
   @media screen and (min-width: 768px){
     max-width: 768px;
     margin: 0 auto;
-    // margin-left: 0;
-    // margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 51px;
@@ -79,7 +76,6 @@
       padding-top: 19px;
       padding-bottom: 0;
       padding-right: 30px;
-      // padding-left: 30px;
       align-self: baseline;
 
     }

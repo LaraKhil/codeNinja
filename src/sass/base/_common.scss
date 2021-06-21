@@ -7,15 +7,19 @@ body {
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
-  background-image: url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg);
-  background-position: top , bottom 228px left 0 ;
-  background-size: contain ;
+  background-image: url(/images/background/donuts-mob.png), url(/images/background/wheat.png) ,url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg) ;
+  background-position:  top 0 left 0 , bottom 0 right 0, top , bottom 228px left 0;
+  background-size: 119px , 113px ,contain, contain;
   background-repeat: no-repeat;
 
+  @media (min-resolution: 2dppx){
+    background-image: url(/images/background/donuts-mob2x.png), url(/images/background/wheat2x.png) ,url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg) ;
+  }
+
   @media screen and (min-width: 768px){
-    background-image: url(/images/background/bg-tablet-top.svg) , url(/images/background/bg-tablet-bottom.svg);
-    background-position: top ,  bottom 63px left 0;
-    background-size: 100% , contain;
+    background-image: url(/images/background/donuts-mob.png), url(/images/background/wheat.png) ,url(/images/background/bg-tablet-top.svg) , url(/images/background/bg-tablet-bottom.svg) ;
+    background-position: top 0 left 0, bottom 0 right 0 , top ,  bottom 63px left 0;
+    background-size:129px, 113px ,100% , contain;
   }
 
   @media screen and (min-width: 1280px){

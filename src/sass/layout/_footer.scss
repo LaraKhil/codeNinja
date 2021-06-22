@@ -1,7 +1,13 @@
 .footer {
   padding-bottom: 19px;
+  @media screen and(min-width: 768px) {
+    padding-bottom: 21px;
+  }
   &__list {
     margin-bottom: 21px;
+    @media screen and(min-width: 768px) {
+      margin-bottom: 38.5px;
+    }
   }
 }
 

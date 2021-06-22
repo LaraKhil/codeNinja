@@ -2,15 +2,15 @@
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 23px;
+  padding-top: 19px;
   margin-bottom: 30px;
-  
+
   @media screen and (min-width: 768px) {
     max-width: 626px;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 
   &__tit {
@@ -21,74 +21,69 @@
     color: var(--text-color);
     text-align: center;
     margin-bottom: 10px;
-  
-    @media screen and (min-width: 768px){
-      margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 6px;
     }
   }
 
-  &__slider{
+  &__slider {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
   }
 
-  &-hidden-div{
-  display: none;
+  &-hidden-div {
+    display: none;
 
-  @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       display: block;
     }
   }
 
-  &__scale &__img{
-  align-self: flex-start;
-  width: 110px;
+  &__scale &__img {
+    align-self: flex-start;
+    width: 110px;
 
-  @media screen and (min-width: 1280px) {
-    width: 136px;
-
+    @media screen and (min-width: 1280px) {
+      width: 136px;
     }
   }
 
-  &__container--padding{
+  &__container--padding {
     padding-top: 0;
     margin-left: 38px;
     margin-right: 38px;
 
-    @media screen and (min-width: 768px){
-      padding-top: 31px;
+    @media screen and (min-width: 768px) {
+      padding-top: 25px;
     }
 
-
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       width: 354px;
       margin-left: 60px;
       margin-right: 60px;
     }
   }
 
-
   &__img {
     width: 110px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 6px;
-  
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
       width: 186px;
     }
-  
-    @media screen and (min-width: 1280px){
+
+    @media screen and (min-width: 1280px) {
       width: 234px;
     }
   }
 
   &__stars-icon-container {
     margin-bottom: 6px;
-  
-  
   }
 
   &__stars-set {
@@ -97,10 +92,9 @@
     width: 128px;
     height: 24px;
     fill: var(--button-color);
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       width: 136px;
     }
-  
   }
 
   &__name {
@@ -111,49 +105,50 @@
     line-height: 1.2;
     color: var(--text-color);
     text-align: center;
-    margin-bottom: 11px;
+    margin-bottom: 10px;
   }
-
 }
 
-
-
-.review__txt{
+.review__txt {
   max-width: 450px;
   margin: 0 auto;
   font-size: 16px;
-  line-height: 1.3;
+  line-height: 1.21;
   color: var(--text-color);
   text-align: center;
   margin-bottom: 30px;
 
   @media screen and (min-width: 768px) {
+    line-height: 1.25;
     max-width: 626px;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  &--hidden{
+  &--hidden {
     display: none;
   }
-
 }
 
 .review__counter {
+  font-size: 14px;
   display: inline-block;
   position: relative;
   width: 120px;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   color: var(--button-color);
   font-family: 'Montserrat', sans-serif;
 
+  @media screen and(min-width: 768px) {
+    margin-top: 35px;
+  }
 
   &::before {
-    content: "";
+    content: '';
     width: 35px;
     height: 1px;
     background-color: var(--button-color);
@@ -164,7 +159,7 @@
   }
 
   &::after {
-    content: "";
+    content: '';
     width: 35px;
     height: 1px;
     background-color: var(--button-color);

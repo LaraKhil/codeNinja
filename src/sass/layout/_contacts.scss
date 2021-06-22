@@ -1,6 +1,10 @@
 .contacts {
   padding-bottom: 35px;
   padding-top: 22px;
+  @media screen and(min-width: 768px) {
+    padding-top: 19px;
+    padding-bottom: 37.5px;
+  }
 
   &__form {
     @media screen and(min-width: 768px) {
@@ -25,6 +29,10 @@
     margin-top: 14px;
     margin-bottom: 22px;
     text-align: center;
+
+    @media screen and(min-width: 768px) {
+      margin-top: 11px;
+    }
   }
 
   &__input {
@@ -38,6 +46,7 @@
     padding-top: 0;
     margin-bottom: 25px;
     @media screen and(min-width: 768px) {
+      margin-bottom: 15px;
       // justify-self: center;
       width: 100%;
     }
@@ -45,5 +54,8 @@
 
   &__question {
     margin-bottom: 37px;
+    @media screen and(min-width:768px) {
+      margin-bottom: 27px;
+    }
   }
 }

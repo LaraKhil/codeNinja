@@ -1,6 +1,7 @@
-.registration{
+.registration {
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 27px;
   padding-top: 34px;
   padding-left: 12px;
   padding-right: 12px;
@@ -10,12 +11,12 @@
   box-shadow: var(--registration-box-shadow);
   background-color: var(--background-color);
 
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     max-width: 450px;
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     max-width: 768px;
     margin: 0 auto;
     padding-left: 15px;
@@ -26,27 +27,25 @@
     box-shadow: none;
     background-color: transparent;
     background-image: url(/images/registration/registr-donut.png);
-    background-position: top 45px left ;
+    background-position: top 45px left;
     background-repeat: no-repeat;
     background-size: 225px;
 
-    @media (min-resolution: 2dppx){
+    @media (min-resolution: 2dppx) {
       background-image: url(/images/registration/registr-donut2x.png);
-      background-position: top 45px left ;
+      background-position: top 45px left;
       background-repeat: no-repeat;
       background-size: 225px;
-
     }
   }
 
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     max-width: 1100px;
-    background-position: top 60px left ;
+    background-position: top 60px left;
   }
 
-  &__flex-wrapper{
-    
-    @media screen and (min-width: 768px){
+  &__flex-wrapper {
+    @media screen and (min-width: 768px) {
       display: flex;
       align-items: center;
       padding-top: 35px;
@@ -60,175 +59,162 @@
       background-color: var(--background-color);
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       width: 822px;
       justify-content: center;
       padding-top: 35px;
       padding-bottom: 35px;
     }
-    
   }
-  
-  &__info-container{
+
+  &__info-container {
     padding-bottom: 20px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       padding-top: 19px;
       padding-bottom: 0;
       padding-right: 30px;
       align-self: baseline;
-
     }
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
       width: 157px;
     }
   }
 
-  &__title{
-    margin-bottom: 35px;
+  &__title {
+    margin-bottom: 30px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       margin-bottom: 29px;
     }
-    
   }
 
-  &__text{
+  &__text {
     margin-left: auto;
     margin-right: auto;
+    width: 150px;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.2;
     text-align: center;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       text-align: right;
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       font-size: 20px;
     }
-    
   }
 
-  &__text:first-child{
+  &__text:first-child {
     margin-bottom: 24px;
-    
 
-    @media screen and (min-width: 768px){
-      
-      &:first-child{
+    @media screen and (min-width: 768px) {
+      &:first-child {
         margin-bottom: 34px;
       }
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       margin-bottom: 29px;
     }
   }
 
-  &__text-form{
+  &__text-form {
     text-align: center;
-    margin-bottom: 19px;
+    margin-bottom: 17px;
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       margin-bottom: 13px;
       font-size: 18px;
-
     }
   }
 
-  &__form-container{
+  &__form-container {
     border-top: var(--registr-border) var(--placeholder);
     padding-top: 11px;
-    
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
       display: flex;
       border-top: none;
       padding-top: 19px;
       padding-bottom: 19px;
       border-left: var(--registr-border) var(--button-color);
     }
-
   }
 
-  &__form{
-    padding-bottom: 25px;
+  &__form {
+    padding-bottom: 37px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       padding-bottom: 0;
       padding-left: 30px;
       padding-right: 25px;
       width: 289px;
     }
 
-     @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       padding-right: 38px;
     }
-  
   }
 
-  &__input{
+  &__input {
+    padding-top: 0;
     border: none;
     background-color: transparent;
     border-bottom: var(--registr-border) var(--button-color);
     width: 100%;
     color: var(--text-color);
-
   }
 
-  &__input:not(:last-child){
-     margin-bottom: 25px;
+  &__input:not(:last-child) {
+    margin-bottom: 25px;
 
-     @media screen and (min-width: 768px){
-       &:not(:last-child){
-         margin-bottom: 15px;
-       }
-     }
-  }
-
-  &::-webkit-input-placeholder{
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--placeholder);
-  }
-
-  &::-moz-placeholder{
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--placeholder);
-  }
-
-  &:-ms-input-placeholder{
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--placeholder);
-  }
-
-  &::-ms-input-placeholder{
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--placeholder);
-  }
-
-  &::placeholder{
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--placeholder);
-  }
-
-  &__btn{
-    display: block;
-    margin: 0 auto;
-
-    @media screen and (min-width: 768px){
-      align-self: center;
+    @media screen and (min-width: 768px) {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
     }
   }
 
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--placeholder);
+  }
+
+  &::-moz-placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--placeholder);
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--placeholder);
+  }
+
+  &::-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--placeholder);
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--placeholder);
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      align-self: center;
+    }
+  }
 }
-
-
-
-

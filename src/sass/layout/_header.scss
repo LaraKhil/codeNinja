@@ -2,7 +2,7 @@
   &__container {
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-bottom: 33px;
+    margin-bottom: 25px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -18,8 +18,10 @@
   }
   &__menu-open {
     position: absolute;
-    right: 0px;
+    right: 15px;
     top: 15px;
+    padding-left: 0;
+    padding-right: 0;
     border: none;
     background-color: transparent;
     cursor: pointer;

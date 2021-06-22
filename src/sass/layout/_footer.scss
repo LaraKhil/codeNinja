@@ -1,7 +1,7 @@
 .footer {
   padding-bottom: 19px;
   &__list {
-    margin-bottom: 34px;
+    margin-bottom: 21px;
   }
 }
 
@@ -20,6 +20,7 @@
   }
 
   &__text {
+    line-height: 1.25;
     color: var(--text-color);
     font-style: normal;
   }

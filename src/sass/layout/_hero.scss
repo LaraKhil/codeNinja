@@ -1,90 +1,85 @@
-.hero{
+.hero {
   text-align: center;
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     text-align: left;
   }
 
-  &__description{
-    width: 224px;
+  &__description {
+    width: 225px;
     margin: 0 auto;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       margin: 0 0 auto 0;
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       width: 490px;
       margin-bottom: 80px;
     }
   }
 
-  &__title{
-    font-family: "Caveat Brush", cursive;
+  &__title {
+    font-family: 'Caveat Brush', cursive;
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 1.26;
     text-align: center;
     color: var(--text-color);
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       text-align: left;
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       margin-bottom: 15px;
       font-size: 64px;
       line-height: 1;
     }
   }
 
-  &__text{
+  &__text {
     margin-bottom: 37px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       margin-bottom: 26px;
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       margin-bottom: 30px;
       font-size: 24px;
       line-height: 1.2;
     }
   }
 
-  &__btn{
+  &__btn {
     margin-bottom: 32.5px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       margin: 0 0 auto 0;
       margin-bottom: 13.5px;
     }
 
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1280px) {
       margin-bottom: 54.5px;
     }
   }
-
 }
 
-.hero__list{
-
-  @media screen and (min-width: 768px){
+.hero__list {
+  @media screen and (min-width: 768px) {
     justify-content: flex-start;
   }
-
 }
 
-.hero__list .social__icon{
-
-  @media screen and (min-width: 768px){
-    left:0;
+.hero__list .social__icon {
+  @media screen and (min-width: 768px) {
+    left: 0;
     transform: translateY(0);
     width: 19px;
     height: 15px;
-
   }
 
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     width: 24px;
     height: 24px;
   }

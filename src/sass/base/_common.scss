@@ -7,17 +7,19 @@ body {
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
-  background-image: url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg);
-  background-position: top, bottom 228px left 50%;
+  background-image: url(/images/background/bg-mobile-top.svg),
+    url(/images/background/bg-mobile-bottom.svg);
+  background-position: top, bottom 216px left 50%;
   background-size: 550px 461px, 551px 1215px;
   background-repeat: no-repeat;
 
   @media (min-resolution: 2dppx) {
-    background-image: url(/images/background/bg-mobile-top.svg), url(/images/background/bg-mobile-bottom.svg);
+    background-image: url(/images/background/bg-mobile-top.svg),
+      url(/images/background/bg-mobile-bottom.svg);
   }
 
   @media screen and (min-width: 768px) {
-    background-image:  url(/images/background/bg-tablet-top.svg),
+    background-image: url(/images/background/bg-tablet-top.svg),
       url(/images/background/bg-tablet-bottom.svg);
     background-position: top, bottom 63px left 50%;
     background-size: 880px 622px, 891px 1260px;
@@ -29,17 +31,16 @@ body {
   }
 
   @media screen and (min-width: 1280px) {
-    background-image:  url(/images/background/bg-desk-top.svg),
+    background-image: url(/images/background/bg-desk-top.svg),
       url(/images/background/bg-desk-bottom.svg);
-    background-position:  top , bottom left 50%;
+    background-position: top, bottom left 50%;
     background-size: 1431px 1035px, 1323px 1497px;
 
     @media (min-resolution: 2dppx) {
-      background-image:
-        url(/images/background/bg-desk-top.svg), url(/images/background/bg-desk-bottom.svg);
+      background-image: url(/images/background/bg-desk-top.svg),
+        url(/images/background/bg-desk-bottom.svg);
     }
   }
-
 }
 
 h1,

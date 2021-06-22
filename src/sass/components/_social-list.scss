@@ -1,6 +1,10 @@
 .social {
   display: flex;
   justify-content: center;
+  &__item {
+    width: 40px;
+    height: 40px;
+  }
 
   &__link {
     width: 40px;

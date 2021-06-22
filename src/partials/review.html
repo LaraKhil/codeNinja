@@ -1,7 +1,7 @@
 <section class="review container" id="reviews">
     <h2 class="review__tit">Reviews</h2>
-    <div class="lara">
-        <article class="review__container review__scale">
+    <div class="review__slider">
+        <div class="review__container review-hidden-div review__scale">
             <picture>
                 <source srcset="./images/review/webp/review__desktop-img3.webp 1x, ./images/review/webp/review__desktop-img3.webp 2x" media="(min-width: 1200px)" type="image/webp">
                 <source srcset="./images/review/png/review__desktop-img3.png 1x, ./images/review/png/review__desktop-img3.png 2x" media="(min-width: 1200px)">
@@ -20,8 +20,9 @@
                 </svg>
             </div>
             <p class="review__name">John</p>
-        </article>
-        <article class="review__container article-hidden margin">
+        </div>
+
+        <div class="review__container review__container--padding">
             <picture>
                 <source
                     srcset="./images/review/webp/review__desktop-img1.webp 1x, ./images/review/webp/review__mobile-img1.webp 2x"
@@ -50,9 +51,9 @@
                 </svg>
             </div>
             <p class="review__name">Will</p>
-        </article>
-        
-        <article class="review__container article-hidden review__scale">
+        </div>
+
+        <div class="review__container review-hidden-div review__scale">
             <picture>
                 <source
                     srcset="./images/review/webp/review__desktop-img2.webp 1x, ./images/review/webp/review__desktop-img2.webp 2x"
@@ -78,13 +79,12 @@
                 </svg>
             </div>
             <p class="review__name">Elisabeth</p>
-        </article>
-
+        </div>
     </div>
 
-    <div class="bers">
-        <div class="review__txt">
-            <p class="review__txt-padding">
+    <div class="review__slider-txt">
+        <div class="review__txt review__txt--hidden">
+            <p>
             Last time I have visited a cooking
             course by Eva I was impressed
             with the way she explained
@@ -101,8 +101,8 @@
             </p>
             <span class="review__counter">2/15</span>
         </div>
-        <div class="review__txt test">
-            <p class="test">
+        <div class="review__txt ">
+            <p>
                 Last time I have visited a cooking
                 course by Eva I was impressed
                 with the way she explained
@@ -111,7 +111,7 @@
                 delicious dish even if it is your first
                 time in the kitchen!
             </p>
-            <p class="test-2">
+            <p>
                 Thank you so much for the
                 masterclass! Looking forward to the
                 next one and highly recommend it
@@ -119,8 +119,8 @@
             </p>
             <span class="review__counter">2/15</span>
         </div>
-        <div class="review__txt test">
-            <p class="review__txt-padding">
+        <div class="review__txt review__txt--hidden">
+            <p>
                 Last time I have visited a cooking
                 course by Eva I was impressed
                 with the way she explained
@@ -129,7 +129,7 @@
                 delicious dish even if it is your first
                 time in the kitchen!
             </p>
-            <p class="test-2">
+            <p>
                 Thank you so much for the
                 masterclass! Looking forward to the
                 next one and highly recommend it

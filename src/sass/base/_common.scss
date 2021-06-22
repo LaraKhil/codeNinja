@@ -10,22 +10,22 @@ body {
   background-image: url(/images/background/bg-mobile-top.svg),
     url(/images/background/bg-mobile-bottom.svg);
   background-position: top, bottom 216px left 50%;
-  background-size: 550px 461px, 551px 1215px;
+  background-size: 766px 461px, 767px 1215px;
   background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) {
     background-image: url(/images/background/bg-tablet-top.svg),
       url(/images/background/bg-tablet-bottom.svg);
     background-position: top, bottom 63px left 50%;
-    background-size: 880px 622px, 891px 1260px;
+    background-size: 1278px 622px, 1278px 1260px;
 
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: url(/images/background/bg-desk-top-test.svg),
-      url(/images/background/bg-desk-bottom-test.svg);
+    background-image: url(/images/background/bg-desk-top.svg),
+      url(/images/background/bg-desk-bottom.svg);
     background-position: top , bottom left 50%;
-    background-size: 1600px, 1600px  1497px;
+    background-size: 2023px 1036px, 1600px  1497px;
 
   }
 }

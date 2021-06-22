@@ -5,6 +5,10 @@
     padding-top: 19px;
     padding-bottom: 37.5px;
   }
+  @media screen and(min-width: 1280px) {
+    padding-top: 11px;
+    padding-bottom: 69.5px;
+  }
 
   &__form {
     @media screen and(min-width: 768px) {
@@ -18,12 +22,12 @@
     }
   }
 
-  &__title {
-    text-align: center;
-    font-family: Caveat Brush;
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
+  // &__title {
+  //   text-align: center;
+  //   font-family: Caveat Brush;
+  //   margin-top: 15px;
+  //   margin-bottom: 20px;
+  // }
 
   &__text-form {
     margin-top: 14px;
@@ -32,6 +36,10 @@
 
     @media screen and(min-width: 768px) {
       margin-top: 11px;
+    }
+    @media screen and(min-width: 1280px) {
+      margin-top: 15px;
+      margin-bottom: 18px;
     }
   }
 

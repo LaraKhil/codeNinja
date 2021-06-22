@@ -8,14 +8,16 @@
     </div>
     <div class="registration__form-container">
       <form class="registration__form">
-        <p class="text registration__text-form">Apply your personal info
-        for registration</p>
-        <input type="text" class="registration__input" placeholder="Your Name" required>
-        <input type="tel" class="registration__input" placeholder="Phone number"
-        required>
-        <input type="email" class="registration__input registration__email" placeholder="Email">
+        <div class="registration__form-wrapper">
+          <p class="text registration__text-form">Apply your personal info
+          for registration</p>
+          <input type="text" name="text" class="registration__input" placeholder="Your Name" required>
+          <input type="tel" name="tel" class="registration__input" placeholder="Phone number"
+          required>
+          <input type="email" name="email" class="registration__input registration__email" placeholder="Email">
+        </div>
+        <button class="button registration__btn" type="submit">Register</button>
       </form>
-      <button class="button registration__btn" type="submit">Register</button>
     </div>
   </div>
 </section>

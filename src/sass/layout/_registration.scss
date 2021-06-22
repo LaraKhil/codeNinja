@@ -107,6 +107,7 @@
 
     @media screen and (min-width: 1280px) {
       font-size: 20px;
+      width: 127px;
     }
   }
 
@@ -148,17 +149,12 @@
   }
 
   &__form {
-    padding-bottom: 37px;
-
+   
     @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
       padding-bottom: 0;
       padding-left: 30px;
-      padding-right: 25px;
-      width: 289px;
-    }
-
-    @media screen and (min-width: 1280px) {
-      padding-right: 38px;
     }
   }
 
@@ -169,6 +165,7 @@
     border-bottom: var(--registr-border) var(--button-color);
     width: 100%;
     color: var(--text-color);
+
   }
 
   &__input:not(:last-child) {
@@ -179,6 +176,7 @@
         margin-bottom: 15px;
       }
     }
+
   }
 
   &::-webkit-input-placeholder {
@@ -218,5 +216,18 @@
     @media screen and (min-width: 768px) {
       align-self: center;
     }
+  }
+}
+
+.registration__form-wrapper{
+  padding-bottom: 37px;
+  
+  @media screen and (min-width: 768px){
+    padding-bottom: 0;
+    padding-right: 25px;
+  }
+
+  @media screen and (min-width: 1280px){
+    width: 234px;
   }
 }

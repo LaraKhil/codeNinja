@@ -13,33 +13,20 @@ body {
   background-size: 550px 461px, 551px 1215px;
   background-repeat: no-repeat;
 
-  @media (min-resolution: 2dppx) {
-    background-image: url(/images/background/bg-mobile-top.svg),
-      url(/images/background/bg-mobile-bottom.svg);
-  }
-
   @media screen and (min-width: 768px) {
     background-image: url(/images/background/bg-tablet-top.svg),
       url(/images/background/bg-tablet-bottom.svg);
     background-position: top, bottom 63px left 50%;
     background-size: 880px 622px, 891px 1260px;
 
-    @media (min-resolution: 2dppx) {
-      background-image: url(/images/background/bg-tablet-top.svg),
-        url(/images/background/bg-tablet-bottom.svg);
-    }
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: url(/images/background/bg-desk-top.svg),
-      url(/images/background/bg-desk-bottom.svg);
-    background-position: top, bottom left 50%;
-    background-size: 1431px 1035px, 1323px 1497px;
+    background-image: url(/images/background/bg-desk-top-test.svg),
+      url(/images/background/bg-desk-bottom-test.svg);
+    background-position: top , bottom left 50%;
+    background-size: 1600px, 1600px  1497px;
 
-    @media (min-resolution: 2dppx) {
-      background-image: url(/images/background/bg-desk-top.svg),
-        url(/images/background/bg-desk-bottom.svg);
-    }
   }
 }
 

@@ -38,8 +38,8 @@
       margin-top: 11px;
     }
     @media screen and(min-width: 1280px) {
-      margin-top: 15px;
-      margin-bottom: 18px;
+      margin-top: 18px;
+      margin-bottom: 21px;
     }
   }
 
@@ -51,11 +51,9 @@
     border-bottom: 1px solid var(--button-color);
     max-width: 265;
 
-    padding-top: 0;
     margin-bottom: 25px;
     @media screen and(min-width: 768px) {
       margin-bottom: 15px;
-      // justify-self: center;
       width: 100%;
     }
   }

@@ -52,16 +52,38 @@ domData.aboutBtn.addEventListener('click', () => {
 });
 
 $(".review__slider").slick({
-  centerMode: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
+  // centerMode: true,
+  // slidesToShow: 1,
+  // slidesToScroll: 1,
   infinite: true,
   autoplay: true,
   speed: 1000,
   // slidesToScroll: 1
-  arrows: false
+  arrows: false,
   // fade: true,
   // asNavFor: '.review__slider-txt'
+  responsive: [
+    {
+      breakpoint: 768,
+      settings:{
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true
+        // centerPadding: '40px',
+
+      }
+      
+    },
+    { 
+      breakpoint: 320,
+      settings:{
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+
+    }
+  ],
+  mobileFirst: true
 
 });
 // $(".review__slider-txt").slick({

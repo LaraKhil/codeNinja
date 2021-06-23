@@ -49,3 +49,10 @@ domData.aboutBtn.addEventListener('click', () => {
     domData.aboutBtn.innerHTML = 'Read more';
   }
 });
+
+$(".review__slider").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false
+
+});

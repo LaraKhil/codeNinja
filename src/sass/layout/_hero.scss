@@ -54,7 +54,10 @@
 
   &__btn {
     margin-bottom: 32.5px;
-
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
     @media screen and (min-width: 768px) {
       margin: 0 0 auto 0;
       margin-bottom: 18.5px;

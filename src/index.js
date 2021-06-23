@@ -83,7 +83,7 @@ $(".review__slider-txt").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  fade: true,
+  // fade: true,
   asNavFor: '.review__slider'
 
 });

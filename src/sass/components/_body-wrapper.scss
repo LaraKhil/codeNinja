@@ -12,22 +12,28 @@
     @media screen and (min-width: 768px) {
       max-width: 768px;
       background-image: url(/images/background/donuts-tablet.png),
-        url(/images/background/wheat-tablet.png);
-      background-position: top 0 right 137px, bottom 0 right 0;
-      background-size: 378px, 150px;
+        url(/images/background/wheat-tablet.png), url(/images/background/confetti-tablet.png);
+      background-position: top 0 right 137px, bottom 0 right 0, bottom 300px right 0;
+      background-size: 378px, 150px, auto;
 
       @media (min-resolution: 2dppx) {
         background-image: url(/images/background/donuts-tablet@2x.png),
-          url(/images/background/wheat-tablet@2x.png);
-
+          url(/images/background/wheat-tablet@2x.png), url(/images/background/confetti-tablet2x.png);
+        background-size: 378px, 150px, 280px 374px;
       }
       
     }
 
     @media screen and (min-width: 775px){
       background-image: url(/images/background/donuts-tablet.png),
-        url(/images/background/wheat-tablet-full.png);
-      background-size: 378px, 207px;
+        url(/images/background/wheat-tablet-full.png), url(/images/background/confetti-tablet.png);
+      background-size: 378px, 207px , 280px 374px;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url(/images/background/donuts-tablet@2x.png),
+          url(/images/background/wheat-tablet-full2x.png), url(/images/background/confetti-tablet2x.png);
+      }
+
     }
 
     @media screen and (min-width: 1280px) {

@@ -52,25 +52,19 @@ domData.aboutBtn.addEventListener('click', () => {
 });
 
 $(".review__slider").slick({
-  // centerMode: true,
-  // slidesToShow: 1,
-  // slidesToScroll: 1,
-  infinite: true,
-  autoplay: true,
-  speed: 1000,
-  // slidesToScroll: 1
-  arrows: false,
-  // fade: true,
-  // asNavFor: '.review__slider-txt'
+  speed: 500,
+  
+  arrows: true,
+  asNavFor: '.review__slider-txt',
+
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 767,
       settings:{
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: true
-        // centerPadding: '40px',
-
+        centerMode: true,
+        centerPadding: '10px',
       }
       
     },
@@ -80,17 +74,16 @@ $(".review__slider").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
       }
-
     }
   ],
   mobileFirst: true
 
 });
-// $(".review__slider-txt").slick({
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   arrows: false,
-//   fade: true,
-//   asNavFor: '.review__slider'
+$(".review__slider-txt").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.review__slider'
 
-// });
+});

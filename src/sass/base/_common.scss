@@ -18,15 +18,19 @@ body {
       url(/images/background/bg-tablet-bottom.svg);
     background-position: top, bottom 63px left 50%;
     background-size: 1278px 622px, 1278px 1260px;
-
   }
 
   @media screen and (min-width: 1280px) {
     background-image: url(/images/background/bg-desk-top.svg),
       url(/images/background/bg-desk-bottom.svg);
-    background-position: top , bottom left 50%;
-    background-size: 2023px 1036px, 1600px  1497px;
-
+    background-position: top, bottom left 50%;
+    background-size: 2023px 1036px, 1600px 1497px;
+  }
+  &.burger-open {
+    overflow: hidden;
+    @media screen and(min-width: 1280px) {
+      overflow: visible;
+    }
   }
 }
 

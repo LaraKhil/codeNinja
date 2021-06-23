@@ -11,12 +11,22 @@ const domData = {
   aboutBtn: document.querySelector('.about-us__button'),
 };
 
+document.querySelectorAll('.site-nav__link_burger').forEach(item =>
+  item.addEventListener('click', () => {
+    console.log('click');
+    domData.burgerMenu.classList.remove('is-open');
+    document.body.classList.remove('burger-open');
+  }),
+);
+
 domData.openBurger.addEventListener('click', () => {
   domData.burgerMenu.classList.add('is-open');
+  document.body.classList.add('burger-open');
 });
 
 domData.closeBurger.addEventListener('click', () => {
   domData.burgerMenu.classList.remove('is-open');
+  document.body.classList.remove('burger-open');
 });
 
 domData.programBtn.addEventListener('click', () => {

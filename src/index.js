@@ -1,3 +1,4 @@
+import { speed } from 'jquery';
 import './sass/main.scss';
 
 const domData = {
@@ -51,8 +52,23 @@ domData.aboutBtn.addEventListener('click', () => {
 });
 
 $(".review__slider").slick({
-  slidesToShow: 1,
+  centerMode: true,
+  slidesToShow: 3,
   slidesToScroll: 1,
+  infinite: true,
+  autoplay: true,
+  speed: 1000,
+  // slidesToScroll: 1
   arrows: false
+  // fade: true,
+  // asNavFor: '.review__slider-txt'
 
 });
+// $(".review__slider-txt").slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   arrows: false,
+//   fade: true,
+//   asNavFor: '.review__slider'
+
+// });

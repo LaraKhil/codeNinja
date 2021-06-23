@@ -33,12 +33,11 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
-    //
     min-width: 0;
   }
 
   &-hidden-div {
-    display: none;
+    // display: none;
 
     @media screen and (min-width: 768px) {
       display: block;
@@ -48,6 +47,7 @@
   &__scale &__img {
     align-self: flex-start;
     width: 110px;
+    margin: 0 auto;
 
     @media screen and (min-width: 1280px) {
       width: 136px;
@@ -71,20 +71,23 @@
     }
   }
 
-  &__img {
-    width: 110px;
+  &__img-container{
+  height: auto;
+  width: 116px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 6px;
 
     @media screen and (min-width: 768px) {
-      width: 186px;
+      width: 110px;
     }
 
     @media screen and (min-width: 1280px) {
       width: 234px;
     }
+ 
   }
+
 
   &__stars-icon-container {
     margin-bottom: 6px;
@@ -182,6 +185,7 @@
   }
 }
 
+
 // wrapper
 .review__wrapper {
 }
@@ -201,11 +205,18 @@
 .slick-list {
   // width: 100%;
   // padding: 0px;
-  // overflow: hidden;
+  overflow: hidden;
+  // background-color: green;
+  width: 100%;
+  
 }
 /* Лента слайдов */
 .slick-track {
   display: flex;
+  
+
+  // background-color: red;
+  
 }
 
 /* Слайд */
@@ -213,30 +224,32 @@
 }
 /* Слайд активный (показывается) */
 .slick-slide.slick-active {
-  background-color: red;
+  // background-color: red;
+  
 }
 /* Слайд основной */
 .slick-slide.slick-current {
-  background-color: blue;
+  // background-color: blue;
+  
 }
 /* Слайд по центру */
 .slick-slide.slick-center {
-  padding-top: 0;
-  margin-left: 38px;
-  margin-right: 38px;
+  // padding-top: 0;
+  // margin-left: 38px;
+  // margin-right: 38px;
 
-  @media screen and (min-width: 768px) {
-    padding-top: 25px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   padding-top: 25px;
+  // }
 
-  @media screen and (min-width: 1280px) {
-    padding-top: 18px;
-    min-width: 400px;
+  // @media screen and (min-width: 1280px) {
+  //   padding-top: 18px;
+    
 
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-  background-color: green;
+  //   margin-left: 60px;
+  //   margin-right: 60px;
+  // }
+  // background-color: green;
 }
 /* Клонированный слайд */
 .slick-slide.slick-cloned {

@@ -34,7 +34,7 @@ domData.programBtn.addEventListener('click', () => {
   console.log(domData.aboutBtn.className);
   if (domData.programBtn.innerHTML === 'Read more') {
     domData.programText.classList.remove('is-hidden');
-    domData.programBtn.innerHTML = 'less';
+    domData.programBtn.innerHTML = 'Less';
   } else {
     domData.programText.classList.add('is-hidden');
     domData.programBtn.innerHTML = 'Read more';
@@ -44,46 +44,44 @@ domData.programBtn.addEventListener('click', () => {
 domData.aboutBtn.addEventListener('click', () => {
   if (domData.aboutBtn.innerHTML === 'Read more') {
     domData.aboutText.classList.remove('is-hidden');
-    domData.aboutBtn.innerHTML = 'less';
+    domData.aboutBtn.innerHTML = 'Less';
   } else {
     domData.aboutText.classList.add('is-hidden');
     domData.aboutBtn.innerHTML = 'Read more';
   }
 });
 
-$(".review__slider").slick({
+$('.review__slider').slick({
   speed: 500,
-  
+
   arrows: true,
   asNavFor: '.review__slider-txt',
 
   responsive: [
     {
       breakpoint: 767,
-      settings:{
+      settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '10px',
-      }
-      
+      },
     },
-    { 
+    {
       breakpoint: 320,
-      settings:{
+      settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-      }
-    }
+      },
+    },
   ],
-  mobileFirst: true
-
+  mobileFirst: true,
 });
-$(".review__slider-txt").slick({
+$('.review__slider-txt').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   // fade: true,
-  asNavFor: '.review__slider'
-
+  asNavFor: '.review__slider',
+  
 });

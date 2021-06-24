@@ -57,7 +57,7 @@
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
     @media screen and (min-width: 768px) {
       margin: 0 0 auto 0;
       margin-bottom: 18.5px;
@@ -79,12 +79,12 @@
   @media screen and (min-width: 768px) {
     left: 0;
     transform: translateY(0);
-    width: 19px;
+    width: 15px;
     height: 15px;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 24px;
-    height: 24px;
+    width: 19px;
+    height: 19px;
   }
 }

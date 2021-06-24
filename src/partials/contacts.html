@@ -4,14 +4,22 @@
 
     <form class="contacts__form" autocomplete="on">
       <p class="text contacts__text-form">We will answer any question!</p>
-      <input class="contacts__input" type="email" name="email" placeholder="Email" />
+      <input
+        class="contacts__input"
+        type="email"
+        name="email"
+        placeholder="Email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        required
+      />
       <input
         class="contacts__input contacts__question"
         type="text"
         name="question"
         placeholder="Type your question"
+        required
       />
-      <button class="button contacts__button" type="submit" >Send</button>
+      <button class="button contacts__button" type="submit">Send</button>
     </form>
   </div>
 </section>

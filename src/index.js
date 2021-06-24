@@ -51,39 +51,37 @@ domData.aboutBtn.addEventListener('click', () => {
   }
 });
 
-$(".review__slider").slick({
+$('.review__slider').slick({
   speed: 500,
-  
+
   arrows: true,
   asNavFor: '.review__slider-txt',
 
   responsive: [
     {
       breakpoint: 767,
-      settings:{
+      settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '10px',
-      }
-      
+      },
     },
-    { 
+    {
       breakpoint: 320,
-      settings:{
+      settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-      }
-    }
+      },
+    },
   ],
-  mobileFirst: true
-
+  mobileFirst: true,
 });
-$(".review__slider-txt").slick({
+$('.review__slider-txt').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   // fade: true,
-  asNavFor: '.review__slider'
-
+  asNavFor: '.review__slider',
+  
 });

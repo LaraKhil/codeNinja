@@ -237,6 +237,13 @@
   &.slick-prev::before {
     content: '';
   }
+  &:hover,
+  &:focus {
+    background-color: var(--button-color);
+    background-image: url(/images/favicons/favicon-32x32.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .slick-arrow:target,

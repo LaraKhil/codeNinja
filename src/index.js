@@ -83,4 +83,5 @@ $('.review__slider-txt').slick({
   arrows: false,
   // fade: true,
   asNavFor: '.review__slider',
+  
 });

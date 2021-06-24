@@ -1,9 +1,14 @@
 // var
 @import './utils/variables';
+
+// utils
+@import './utils/is-hidden';
 // base
 @import './base/common';
 @import './base/container';
 // components
+@import './components/body-wrapper';
+@import './components/site-nav';
 @import './components/burger-menu';
 @import './components/button';
 @import './components/logo';
@@ -11,14 +16,13 @@
 @import './components/social-list';
 @import './components/text';
 @import './components/title';
+@import './components/confetti-wrapper';
 // layout
 @import './layout/header';
-
 @import './layout/hero';
 @import './layout/about';
 @import './layout/program';
 @import './layout/review';
 @import './layout/registration';
 @import './layout/contacts';
-
 @import './layout/footer';

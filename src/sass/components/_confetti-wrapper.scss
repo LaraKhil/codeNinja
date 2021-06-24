@@ -1,0 +1,26 @@
+.confetti-wrapper{
+    @media screen and (min-width: 768px){
+        max-width: 768px;
+        background-image: url(/images/background/confetti-tablet.png);
+        background-repeat: no-repeat;
+        background-position: bottom 177px right 0;
+        background-size: auto;
+
+        @media (min-resolution: 2dppx){
+            background-image: url(/images/background/confetti-tablet2x.png);
+            background-size: 280px ;
+        }
+    }
+
+    @media screen and (min-width: 1280px){
+        max-width: 1280px;
+        margin: 0 auto;
+        background-image: url(/images/background/confetti-desk.png);
+        background-size: 580px;
+        background-position: bottom 115px right 10px;
+
+        @media (min-resolution: 2dppx){
+            background-image: url(/images/background/confetti-desk2x.png);
+        }
+    }
+}

@@ -1,0 +1,113 @@
+.about-us {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 12px;
+    padding-right: 67px;
+    padding-bottom: 0;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding-left: 71px;
+    padding-right: 229px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+}
+
+.about-us__all-txt-wrapper {
+  @media screen and (min-width: 768px) {
+    width: 336px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 388px;
+    padding-top: 82px;
+    // align-self: flex-end;
+  }
+}
+
+.about-us__img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 320px) {
+    margin-top: -20px;
+    max-width: 290px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    max-width: 330px;
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 0;
+    max-width: 512px;
+    margin-right: 76px;
+  }
+}
+
+.about-us__tit {
+  color: var(--text-color);
+  margin-top: 7px;
+  margin-bottom: 7px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 0px;
+  }
+}
+
+.about-us__txt {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.about-us__txt-marg {
+  margin-bottom: 20px;
+}
+
+.about-us__txt-target {
+  margin-top: 20px;
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+
+.about-us__button {
+  color: var(--button-color);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 18px;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}

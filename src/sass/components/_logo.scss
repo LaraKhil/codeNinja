@@ -1,0 +1,13 @@
+.logo {
+  &__image {
+    @media screen and(min-width: 1280px) {
+      margin-right: 38px;
+    }
+  }
+  &__image_burger {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+  }
+}

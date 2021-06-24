@@ -1,0 +1,36 @@
+.footer {
+  padding-bottom: 19px;
+  @media screen and(min-width: 768px) {
+    padding-bottom: 21px;
+  }
+  &__list {
+    margin-bottom: 21px;
+    @media screen and(min-width: 768px) {
+      margin-bottom: 38.5px;
+    }
+    @media screen and(min-width: 1280px) {
+      margin-bottom: 22.5px;
+    }
+  }
+}
+
+.address {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: var(--text-color);
+  }
+
+  &__ico {
+    fill: var(--text-color);
+  }
+
+  &__text {
+    line-height: 1.25;
+    color: var(--text-color);
+    font-style: normal;
+  }
+}

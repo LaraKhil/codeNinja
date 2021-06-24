@@ -1,0 +1,27 @@
+.button {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 18px;
+  min-width: 145px;
+  height: 40px;
+  padding: 0px 6px;
+  background: var(--button-color);
+  border-radius: 25px;
+  border: none;
+  color: var(--buton-text-color);
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: color 250ms linear, background-color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    background-color: var(--button-text-color);
+    border: 1px solid var(--button-color);
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 158px;
+    font-size: 24px;
+  }
+}

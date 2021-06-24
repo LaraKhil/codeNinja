@@ -1,9 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   color: var(--text-color);
   background-color: var(--background-color);
+  background-image: url(/images/background/bg-mobile-top.svg),
+    url(/images/background/bg-mobile-bottom.svg);
+  background-position: top, bottom 216px left 50%;
+  background-size: 766px 461px, 767px 1215px;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(/images/background/bg-tablet-top.svg),
+      url(/images/background/bg-tablet-bottom.svg);
+    background-position: top, bottom 63px left 50%;
+    background-size: 1278px 622px, 1278px 1260px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url(/images/background/bg-desk-top.svg),
+      url(/images/background/bg-desk-bottom.svg);
+    background-position: top, bottom left 50%;
+    background-size: 2023px 1036px, 1600px 1497px;
+  }
+  &.burger-open {
+    overflow: hidden;
+    @media screen and(min-width: 1280px) {
+      overflow: visible;
+    }
+  }
 }
 
 h1,
@@ -15,11 +43,16 @@ p {
 }
 
 a,
-input,
-button {
+input {
   outline: none;
   display: inline-block;
 }
+
+button {
+  display: block;
+  outline: none;
+}
+
 a {
   text-decoration: none;
 }

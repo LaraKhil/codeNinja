@@ -1,0 +1,46 @@
+.header {
+  &__container {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+      justify-content: left;
+      padding-top: 27px;
+      margin-bottom: 3px;
+    }
+    @media screen and(min-width: 1280px) {
+      padding-top: 30px;
+      margin-bottom: 50px;
+    }
+  }
+  &__menu-open {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    @media screen and(min-width: 768px) {
+      top: 26px;
+    }
+  }
+
+  &__menu-open-icon {
+    transition: fill 250ms linear;
+    &:hover,
+    &:focus {
+      fill: var(--button-color);
+    }
+    @media screen and(min-width: 1280px) {
+      display: none;
+    }
+  }
+}

@@ -28,5 +28,9 @@
     .social__link:focus & {
       fill: var(--button-color);
     }
+    @media screen and(min-width: 1280px) {
+      width: 19px;
+      height: 19px;
+    }
   }
 }

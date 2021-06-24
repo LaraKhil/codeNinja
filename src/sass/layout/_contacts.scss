@@ -11,6 +11,11 @@
   }
 
   &__form {
+    @media screen and(max-width: 767px) {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
     @media screen and(min-width: 768px) {
       width: 410px;
       margin-left: auto;

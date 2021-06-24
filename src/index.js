@@ -34,7 +34,7 @@ domData.programBtn.addEventListener('click', () => {
   console.log(domData.aboutBtn.className);
   if (domData.programBtn.innerHTML === 'Read more') {
     domData.programText.classList.remove('is-hidden');
-    domData.programBtn.innerHTML = 'less';
+    domData.programBtn.innerHTML = 'Less';
   } else {
     domData.programText.classList.add('is-hidden');
     domData.programBtn.innerHTML = 'Read more';
@@ -44,7 +44,7 @@ domData.programBtn.addEventListener('click', () => {
 domData.aboutBtn.addEventListener('click', () => {
   if (domData.aboutBtn.innerHTML === 'Read more') {
     domData.aboutText.classList.remove('is-hidden');
-    domData.aboutBtn.innerHTML = 'less';
+    domData.aboutBtn.innerHTML = 'Less';
   } else {
     domData.aboutText.classList.add('is-hidden');
     domData.aboutBtn.innerHTML = 'Read more';
